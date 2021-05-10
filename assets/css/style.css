@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* Général */
+body {
+  background-color: #A8F0CD;
+  font-family: 'Righteous',cursive;;
+}
+
+/* Formulaire d'Inscription */
+.sign {
+  height:425px;
+}
+
+/* Formulaire ajout dépenses */
+.add_exp{
+  height:425px;
+}
+
+/* Gestionnaires des comptes */
+
+.list a{
+  margin-top: 20px;
+}
+
+.account a{
+
+}
+
+/* Sidebar */
+.cat{
+  background-color: white;
+  font-size: 1.4rem;
+  /* bottom: 0;
+  left: 0;
+  height:50vh;
+  position: fixed; */
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.list-group-item{
+  height: 150px;
+  color:#21C2FC;
+  transition: color 200ms, background-color 200ms;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-group a{
+text-decoration: none;
+}
+
+.list-group-item:hover {
+    background-color:#21C2FC;
+    color: #fff;
+}
+
+.fas{
+  font-size: 50px;
+}
+
+
+
+/* Nav header */
+
+.logo:hover{
+  color: white;
+  transition: color 200ms, background-color 200ms;
+}
+
+.logo{
+  color: #21C2FC;
+  font-size: 3.5rem;
+}
+
+.navbar .logo{
+  text-decoration: none;
+
+}
+
+
+
+/* Dashboard */
+
+.desc{
+  /* width : 800px; */
+  font-size: 1.2rem;
+}
+
+/* CHART */
+
+.chart-container{
+  width: 400px;
+}
